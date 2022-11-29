@@ -2,8 +2,7 @@ from player import *
 from match import *
 
 def main():
-
-
+    
     print("Enter data below")
     player_one_name = input("Player one name: ")
     player_two_name = input("Player two name: ")
@@ -19,4 +18,6 @@ def main():
 
     match = Match(player_one, player_two)
     simulate_matches(match)
+    
+    
 main()
