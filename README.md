@@ -6,7 +6,7 @@ Models probability of tennis match outcomes by simulating thousands of matches, 
 Although currently each point is simulated solely based on each player's serve win percentage,
 The design is very modular and the play_point function can easily be made more sophisticated
 
-Files
-player: defines a player class, and also has functions for keeping score and adding a point. 
-match: defines a class match which contains a player and the score, and also functions for simulating matches
+Files\
+player: defines a player class, and also has functions for keeping score and adding a point. \
+match: defines a class match which contains a player and the score, and also functions for simulating matches\
 main: takes keyboard input, simulates a match according to it, and prints output
